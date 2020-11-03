@@ -1,20 +1,27 @@
-//variable, constants, comments
+//string
+console.log ('hello, word');
 
+let email = 'gs@today.com';
+console.log (email);
 
-// 'let' which is interchangable variable
-let age = 25;
-let year = 2020;
+//string concatenation
+let firstName = 'Gina';
+let lastName = 'Brooks';
 
-console.log(age, year);
+let fullName = firstName + ' '+ lastName;
+console.log(fullName);
 
-age = 30;
-console.log(age);
+//getting characters
+console.log(fullName[2]);
 
+//string length
+console.log(fullName.length);
 
-//Conststants 'const' which is NOT interchangable variable
-const points = 100
-console.log(points);
+//string methods
+console.log(fullName.toUpperCase());
+let result = fullName.toLowerCase();
+console.log(result);
+console.log( result, fullName);
 
-//older way to create variable
-var score = 75;
-console.log(score);
+let index = email.indexOf('@') // this is an argument
+console.log(index);
